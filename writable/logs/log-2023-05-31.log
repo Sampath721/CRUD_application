@@ -1,0 +1,1551 @@
+INFO - 2023-05-31 03:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 03:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 03:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 03:50:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 03:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 03:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 03:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 03:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 03:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 03:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 03:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 03:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 04:22:44 --> Undefined variable $employee
+in APPPATH\Views\theme\updatedata.php on line 245.
+ 1 APPPATH\Views\theme\updatedata.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\updatedata.php', 245)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\updatedata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/updatedata', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('theme/updatedata')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->updatedata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 04:24:28 --> Undefined array key "FirstName"
+in APPPATH\Views\theme\updatedata.php on line 245.
+ 1 APPPATH\Views\theme\updatedata.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "FirstName"', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\updatedata.php', 245)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\updatedata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/updatedata', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('theme/updatedata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->updatedata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 04:26:10 --> Undefined array key "FirstName"
+in APPPATH\Views\theme\updatedata.php on line 245.
+ 1 APPPATH\Views\theme\updatedata.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "FirstName"', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\updatedata.php', 245)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\updatedata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/updatedata', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('theme/updatedata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->updatedata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 04:28:07 --> Undefined array key "FirstName"
+in APPPATH\Views\theme\updatedata.php on line 245.
+ 1 APPPATH\Views\theme\updatedata.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "FirstName"', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\updatedata.php', 245)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\updatedata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/updatedata', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('theme/updatedata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->updatedata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 04:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 04:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 05:38:38 --> Undefined variable $FUdata
+in APPPATH\Views\theme\viewdata.php on line 136.
+ 1 APPPATH\Views\theme\viewdata.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FUdata', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 05:39:36 --> Undefined variable $FUdata
+in APPPATH\Views\theme\viewdata.php on line 136.
+ 1 APPPATH\Views\theme\viewdata.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FUdata', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 05:39:37 --> Undefined variable $FUdata
+in APPPATH\Views\theme\viewdata.php on line 136.
+ 1 APPPATH\Views\theme\viewdata.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FUdata', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 05:39:38 --> Undefined variable $FUdata
+in APPPATH\Views\theme\viewdata.php on line 136.
+ 1 APPPATH\Views\theme\viewdata.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FUdata', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 05:39:39 --> Undefined variable $FUdata
+in APPPATH\Views\theme\viewdata.php on line 136.
+ 1 APPPATH\Views\theme\viewdata.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FUdata', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 05:39:39 --> Undefined variable $FUdata
+in APPPATH\Views\theme\viewdata.php on line 136.
+ 1 APPPATH\Views\theme\viewdata.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FUdata', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 05:39:40 --> Undefined variable $FUdata
+in APPPATH\Views\theme\viewdata.php on line 136.
+ 1 APPPATH\Views\theme\viewdata.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FUdata', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 05:40:00 --> Undefined variable $FUdata
+in APPPATH\Views\theme\viewdata.php on line 136.
+ 1 APPPATH\Views\theme\viewdata.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FUdata', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 05:41:03 --> Undefined variable $FUdata
+in APPPATH\Views\theme\viewdata.php on line 136.
+ 1 APPPATH\Views\theme\viewdata.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FUdata', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 05:41:04 --> Undefined variable $FUdata
+in APPPATH\Views\theme\viewdata.php on line 136.
+ 1 APPPATH\Views\theme\viewdata.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FUdata', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-31 05:41:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=kpaavan' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('select * userda...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userda...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userda...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('select * userda...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 05:41:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=kpaavan' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * userdata where email=kpaavan', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userdata where email=kpaavan')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userdata where email=kpaavan')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('select * userdata where email=kpaavan')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-31 05:42:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('select * userda...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userda...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userda...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('select * userda...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 05:42:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * userdata where email=rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userdata where email=rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userdata where email=rsravishankar28@gmail.com')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('select * userdata where email=rsravishankar28@gmail.com')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 05:42:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('select * userda...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userda...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userda...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userda...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 05:42:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * userdata where email=rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userdata where email=rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userdata where email=rsravishankar28@gmail.com')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userdata where email=rsravishankar28@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 05:43:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email==rsravishankar28@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('select * userda...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userda...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userda...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userda...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 05:43:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email==rsravishankar28@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * userdata where email==rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userdata where email==rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userdata where email==rsravishankar28@gmail.com')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userdata where email==rsravishankar28@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 05:44:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email='rsravishankar28@gmail.com'' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('select * userda...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userda...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userda...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userda...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 05:44:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email='rsravishankar28@gmail.com'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * userdata where email=\'rsravishankar28@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userdata where email=\'rsravishankar28@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userdata where email=\'rsravishankar28@gmail.com\'')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userdata where email=\'rsravishankar28@gmail.com\'')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 05:44:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email='rsravishankar28@gmail.com'' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('select * userda...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userda...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userda...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userda...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 05:44:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email='rsravishankar28@gmail.com'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * userdata where email=\'rsravishankar28@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userdata where email=\'rsravishankar28@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userdata where email=\'rsravishankar28@gmail.com\'')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userdata where email=\'rsravishankar28@gmail.com\'')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-31 05:44:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email='rsravishankar28@gmail.com'' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('select * userda...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userda...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userda...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userda...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 05:44:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email='rsravishankar28@gmail.com'' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * userdata where email=\'rsravishankar28@gmail.com\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userdata where email=\'rsravishankar28@gmail.com\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userdata where email=\'rsravishankar28@gmail.com\'')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userdata where email=\'rsravishankar28@gmail.com\'')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 05:45:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('select * userda...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userda...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userda...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userda...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 05:45:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * userdata where email=rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userdata where email=rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userdata where email=rsravishankar28@gmail.com')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userdata where email=rsravishankar28@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 05:53:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('select * userda...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userda...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userda...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userda...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 05:53:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * userdata where email=rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userdata where email=rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userdata where email=rsravishankar28@gmail.com')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userdata where email=rsravishankar28@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-31 05:53:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('select * userda...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userda...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userda...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userda...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 05:53:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * userdata where email=rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userdata where email=rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userdata where email=rsravishankar28@gmail.com')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userdata where email=rsravishankar28@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-31 05:57:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('select * userda...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userda...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userda...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('select * userda...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 05:57:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * userdata where email=rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userdata where email=rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userdata where email=rsravishankar28@gmail.com')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('select * userdata where email=rsravishankar28@gmail.com')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-31 05:58:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('select * userda...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userda...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userda...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userda...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 05:58:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * userdata where email=rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userdata where email=rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userdata where email=rsravishankar28@gmail.com')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userdata where email=rsravishankar28@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 05:58:45 --> Undefined variable $FUdata
+in APPPATH\Views\theme\viewdata.php on line 136.
+ 1 APPPATH\Views\theme\viewdata.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FUdata', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 05:58:49 --> Undefined variable $FUdata
+in APPPATH\Views\theme\viewdata.php on line 136.
+ 1 APPPATH\Views\theme\viewdata.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FUdata', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 05:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 05:58:55 --> Undefined variable $FUdata
+in APPPATH\Views\theme\viewdata.php on line 136.
+ 1 APPPATH\Views\theme\viewdata.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FUdata', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 05:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-31 05:59:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('select * userda...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userda...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userda...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userda...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 05:59:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata where email=rsravishankar28@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('select * userdata where email=rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select * userdata where email=rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * userdata where email=rsravishankar28@gmail.com')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('select * userdata where email=rsravishankar28@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 06:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-31 06:01:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata WHERE email=rsravishankar28@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * userda...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * userda...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * userda...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * userda...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 06:01:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'userdata WHERE email=rsravishankar28@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * userdata WHERE email=rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * userdata WHERE email=rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * userdata WHERE email=rsravishankar28@gmail.com')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * userdata WHERE email=rsravishankar28@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:02:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'USERDATA WHERE email=rsravishankar28@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * USERDA...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * USERDA...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * USERDA...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * USERDA...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 06:02:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'USERDATA WHERE email=rsravishankar28@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * USERDATA WHERE email=rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * USERDATA WHERE email=rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * USERDATA WHERE email=rsravishankar28@gmail.com')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * USERDATA WHERE email=rsravishankar28@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:02:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 06:02:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email=rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email=rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email=rsravishankar28@gmail.com')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email=rsravishankar28@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:03:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 06:03:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email=.rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email=.rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email=.rsravishankar28@gmail.com')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email=.rsravishankar28@gmail.com')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:04:38 --> mysqli_sql_exception: Unknown column 'rsravishankar28@gmail.com' in 'where clause' in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 06:04:38 --> Unknown column 'rsravishankar28@gmail.com' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com`')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com`')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:05:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 06:05:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email=')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email=')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:05:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 06:05:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email=.`rsravishankar28@gmail.com`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email=.`rsravishankar28@gmail.com`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email=.`rsravishankar28@gmail.com`')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email=.`rsravishankar28@gmail.com`')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:06:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 06:06:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email=', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email=')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email=')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email=')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:06:17 --> mysqli_sql_exception: Unknown column 'rsravishankar28@gmail.com' in 'where clause' in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-31 06:06:17 --> Unknown column 'rsravishankar28@gmail.com' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com`')
+ 4 APPPATH\Controllers\Home.php(82): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com`')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:07:07 --> mysqli_sql_exception: Unknown column 'rsravishankar28@gmail.com' in 'where clause' in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 06:07:07 --> Unknown column 'rsravishankar28@gmail.com' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com`')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com`')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:07:23 --> mysqli_sql_exception: Unknown column 'rsravishankar28@gmail.com' in 'where clause' in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 06:07:23 --> Unknown column 'rsravishankar28@gmail.com' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:08:50 --> mysqli_sql_exception: Unknown column 'rsravishankar28@gmail.com' in 'having clause' in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 06:08:50 --> Unknown column 'rsravishankar28@gmail.com' in 'having clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata HAVING email =`rsravishankar28@gmail.com`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata HAVING email =`rsravishankar28@gmail.com`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata HAVING email =`rsravishankar28@gmail.com`')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata HAVING email =`rsravishankar28@gmail.com`')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:10:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 06:10:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata HAVING email =.rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata HAVING email =.rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata HAVING email =.rsravishankar28@gmail.com')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata HAVING email =.rsravishankar28@gmail.com')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:10:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 06:10:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata HAVING email =.`rsravishankar28@gmail.com`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata HAVING email =.`rsravishankar28@gmail.com`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata HAVING email =.`rsravishankar28@gmail.com`')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata HAVING email =.`rsravishankar28@gmail.com`')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:11:01 --> mysqli_sql_exception: Unknown column 'rsravishankar28@gmail.com' in 'having clause' in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 06:11:01 --> Unknown column 'rsravishankar28@gmail.com' in 'having clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata HAVING email =`rsravishankar28@gmail.com`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata HAVING email =`rsravishankar28@gmail.com`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata HAVING email =`rsravishankar28@gmail.com`')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata HAVING email =`rsravishankar28@gmail.com`')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:13:20 --> mysqli_sql_exception: Unknown column 'rsravishankar28@gmail.com' in 'where clause' in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 06:13:20 --> Unknown column 'rsravishankar28@gmail.com' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:13:48 --> mysqli_sql_exception: Unknown column 'rsravishankar28@gmail.com' in 'where clause' in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 06:13:48 --> Unknown column 'rsravishankar28@gmail.com' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE `rsravishankar28@gmail.com`=email', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE `rsravishankar28@gmail.com`=email')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE `rsravishankar28@gmail.com`=email')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE `rsravishankar28@gmail.com`=email')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:16:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 06:16:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email =.rsravishankar28@gmail.com', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email =.rsravishankar28@gmail.com')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email =.rsravishankar28@gmail.com')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email =.rsravishankar28@gmail.com')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:16:36 --> mysqli_sql_exception: Unknown column 'rsravishankar28@gmail.com' in 'where clause' in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 06:16:36 --> Unknown column 'rsravishankar28@gmail.com' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 06:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-31 06:19:47 --> mysqli_sql_exception: Unknown column 'rsravishankar28@gmail.com' in 'where clause' in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 06:19:47 --> Unknown column 'rsravishankar28@gmail.com' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email =`rsravishankar28@gmail.com`')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 06:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 06:20:21 --> Undefined variable $employee
+in APPPATH\Views\theme\viewdata.php on line 136.
+ 1 APPPATH\Views\theme\viewdata.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 136)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 06:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 06:21:12 --> Cannot use object of type mysqli as array
+in APPPATH\Views\theme\viewdata.php on line 139.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 4 APPPATH\Controllers\Home.php(83): view('theme/viewdata', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 06:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 06:22:00 --> Undefined variable $employee
+in APPPATH\Views\theme\viewdata.php on line 143.
+ 1 APPPATH\Views\theme\viewdata.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 06:23:20 --> Undefined variable $employee
+in APPPATH\Views\theme\getDataByEmail.php on line 14.
+ 1 APPPATH\Views\theme\getDataByEmail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('theme/getDataByEmail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 06:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 06:24:23 --> Undefined variable $employee
+in APPPATH\Views\theme\getDataByEmail.php on line 14.
+ 1 APPPATH\Views\theme\getDataByEmail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [], true)
+ 5 APPPATH\Controllers\Home.php(83): view('theme/getDataByEmail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 06:24:48 --> Cannot use object of type mysqli as array
+in APPPATH\Views\theme\getDataByEmail.php on line 17.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [], true)
+ 4 APPPATH\Controllers\Home.php(83): view('theme/getDataByEmail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 06:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-31 06:25:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1 in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 06:25:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email=rsravishankar28@gmail.com ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email=rsravishankar28@gmail.com ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email=rsravishankar28@gmail.com ')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email=rsravishankar28@gmail.com ')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:26:00 --> mysqli_sql_exception: Unknown column 'rsravishankar28@gmail.com' in 'where clause' in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 06:26:00 --> Unknown column 'rsravishankar28@gmail.com' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com` ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com` ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com` ')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata WHERE email=`rsravishankar28@gmail.com` ')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 06:26:19 --> mysqli_sql_exception: Unknown column 'rsravishankar28@gmail.com' in 'having clause' in C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\crud-opr\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\crud-opr\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\crud-opr\system\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\crud-opr\app\Controllers\Home.php(82): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+#6 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\crud-opr\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\crud-opr\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-31 06:26:19 --> Unknown column 'rsravishankar28@gmail.com' in 'having clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT * FROM userdata HAVING email=`rsravishankar28@gmail.com` ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM userdata HAVING email=`rsravishankar28@gmail.com` ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM userdata HAVING email=`rsravishankar28@gmail.com` ')
+ 4 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseConnection->query('SELECT * FROM userdata HAVING email=`rsravishankar28@gmail.com` ')
+ 5 APPPATH\Controllers\Home.php(82): CodeIgniter\Model->__call('query', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 06:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 06:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 06:55:40 --> view(): Argument #3 ($options) must be of type array, string given, called in C:\xampp\htdocs\crud-opr\app\Controllers\Home.php on line 82
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...], 'rsravishankar28@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 07:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 07:01:19 --> Undefined variable $email
+in APPPATH\Views\theme\getDataByEmail.php on line 3.
+ 1 APPPATH\Views\theme\getDataByEmail.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [...], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 07:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 07:01:44 --> Undefined variable $startindex
+in APPPATH\Views\theme\getDataByEmail.php on line 3.
+ 1 APPPATH\Views\theme\getDataByEmail.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $startindex', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [...], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 07:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 07:10:09 --> Undefined array key "channel"
+in APPPATH\Views\theme\viewdata.php on line 216.
+ 1 APPPATH\Views\theme\viewdata.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "channel"', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 216)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 07:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 07:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 07:10:16 --> Undefined array key "channel"
+in APPPATH\Views\theme\viewdata.php on line 216.
+ 1 APPPATH\Views\theme\viewdata.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "channel"', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php', 216)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 07:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 07:11:00 --> Undefined variable $startindex
+in APPPATH\Views\theme\getDataByEmail.php on line 3.
+ 1 APPPATH\Views\theme\getDataByEmail.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $startindex', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [...], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 07:11:41 --> Undefined variable $startindex
+in APPPATH\Views\theme\getDataByEmail.php on line 3.
+ 1 APPPATH\Views\theme\getDataByEmail.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $startindex', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [...], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 07:11:43 --> Undefined variable $startindex
+in APPPATH\Views\theme\getDataByEmail.php on line 3.
+ 1 APPPATH\Views\theme\getDataByEmail.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $startindex', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [...], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 07:11:44 --> Undefined variable $startindex
+in APPPATH\Views\theme\getDataByEmail.php on line 3.
+ 1 APPPATH\Views\theme\getDataByEmail.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $startindex', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [...], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 07:12:34 --> Undefined variable $startindex
+in APPPATH\Views\theme\getDataByEmail.php on line 3.
+ 1 APPPATH\Views\theme\getDataByEmail.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $startindex', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [...], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 07:16:42 --> Undefined variable $startindex
+in APPPATH\Views\theme\getDataByEmail.php on line 3.
+ 1 APPPATH\Views\theme\getDataByEmail.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $startindex', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 07:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 07:18:59 --> Undefined variable $startindex
+in APPPATH\Views\theme\getDataByEmail.php on line 3.
+ 1 APPPATH\Views\theme\getDataByEmail.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $startindex', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 07:24:53 --> Undefined global variable $_SESSION
+in APPPATH\Views\theme\getDataByEmail.php on line 3.
+ 1 APPPATH\Views\theme\getDataByEmail.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 07:27:12 --> Undefined array key "username"
+in APPPATH\Views\theme\getDataByEmail.php on line 5.
+ 1 APPPATH\Views\theme\getDataByEmail.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 07:29:53 --> Undefined array key "username"
+in APPPATH\Views\theme\getDataByEmail.php on line 3.
+ 1 APPPATH\Views\theme\getDataByEmail.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 07:30:30 --> Undefined array key "username"
+in APPPATH\Views\theme\getDataByEmail.php on line 3.
+ 1 APPPATH\Views\theme\getDataByEmail.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 07:52:25 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp\\htdocs\\crud-opr\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp\\htdocs\\crud-opr\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(667): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(988): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Views\theme\viewdata.php(106): session()
+10 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+13 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+14 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+15 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+16 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 07:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 07:52:49 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp\\htdocs\\crud-opr\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp\\htdocs\\crud-opr\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(667): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(988): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Views\theme\viewdata.php(106): session()
+10 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\viewdata.php')
+11 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+12 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/viewdata', [], true)
+13 APPPATH\Controllers\Home.php(27): view('theme/viewdata', [...])
+14 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->viewdata()
+15 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+16 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 07:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 07:53:37 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\theme\getDataByEmail.php on line 3.
+ 1 APPPATH\Views\theme\getDataByEmail.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 07:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 07:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 07:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 07:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 08:00:11 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\crud-opr\app\Controllers\Home.php on line 82
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', 'rsravishankar28@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 08:00:42 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\crud-opr\app\Controllers\Home.php on line 82
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', 'rsravishankar28@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 08:02:28 --> Undefined variable $email
+in APPPATH\Views\theme\getDataByEmail.php on line 1.
+ 1 APPPATH\Views\theme\getDataByEmail.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 08:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 08:04:55 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\theme\getDataByEmail.php on line 141.
+ 1 APPPATH\Views\theme\getDataByEmail.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 141)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 08:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 08:37:41 --> Undefined array key "email"
+in APPPATH\Views\theme\getDataByEmail.php on line 142.
+ 1 APPPATH\Views\theme\getDataByEmail.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 142)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 08:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-31 08:38:55 --> Undefined array key "email"
+in APPPATH\Views\theme\getDataByEmail.php on line 144.
+ 1 APPPATH\Views\theme\getDataByEmail.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php', 144)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\crud-opr\\app\\Views\\theme\\getDataByEmail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('theme/getDataByEmail', [], true)
+ 5 APPPATH\Controllers\Home.php(82): view('theme/getDataByEmail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->DataByEmail()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-31 08:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 08:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 09:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 10:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 10:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 10:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 10:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 10:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 10:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 11:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 11:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 11:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:19:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-31 12:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
